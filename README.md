@@ -50,6 +50,9 @@ CCTTCCTAC
 
 Write Python code in dna2rna2protein.ipynb that reads the FASTA formatted DNA sequence file from Step 1, “transcribes” the DNA into RNA, “translates” the DNA sequences into a peptide sequence, and writes FASTA formatted RNA and protein sequence files. Start by mapping out the algorithm in pseudocode. Carefully check that your input and output are correct for both CDS files.
 
+TIP: DO NOT WRITE ANY PYTHON CODE BEFORE YOU HAVE THOUGHT THROUGH THE STEPS IN PSEUDOCODE.
+TIP: DO not have Prometheus write your code. Ask for help if you get stuck and make sure you understand each line of your code. That way, you learn how to code and you don't get fired in a job when they ask you to write code ;).
+
 ### Step 3. Use a web browser to find the all the protein coding (CDS) sequences for the human genome from ENSEMBL. 
 Here is where you can find the single concatenated FASTA CDS DNA sequence file: http://useast.ensembl.org/info/data/ftp/index.html
 
@@ -60,3 +63,5 @@ wget https://ftp.ensembl.org/pub/release-114/fasta/homo_sapiens/cds/Homo_sapiens
 ```
 
 ### Step 4. Use your Python code from Task A to transcribe all DNA CDS sequences into single concatenated RNA sequence file in FASTA format and translate all the RNA sequences into a single concatenated protein sequence file in FASTA format.
+
+### Step 5. Verify that the input (RNA) and output (PROTEIN) sequences are correct and then turn in your jupyter notebook in Canvas.
